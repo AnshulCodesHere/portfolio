@@ -1,0 +1,845 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Anshul Patel — CSE AI/ML Undergraduate & Developer</title>
+  <meta name="description" content="Personal portfolio of Anshul Patel — CSE AI/ML undergraduate, hackathon leader, backend developer, and conversation enthusiast based in Bhopal, India.">
+  
+  <!-- Favicon Monogram -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='30' fill='%23111114'/><text x='50%' y='55%' font-family='sans-serif' font-weight='800' font-size='48' fill='%23ffffff' dominant-baseline='middle' text-anchor='middle'>AP</text></svg>">
+
+  <!-- Tailwind CSS CDN for utility classes -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+
+  <!-- Custom Stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="selection:bg-rose-500 selection:text-white">
+
+  <!-- Ambient Spotlight & Pinstripe Background (Matching Inspo) -->
+  <div class="ambient-background">
+    <div class="ambient-spotlight"></div>
+    <div class="pinstripe-overlay"></div>
+    <div class="grain-overlay"></div>
+  </div>
+
+  <!-- Floating Pill Header Navigation (Matching Inspo 2) -->
+  <header class="nav-pill-wrapper">
+    <nav class="nav-pill" aria-label="Main Navigation">
+      <a href="#hero" class="nav-logo-badge" title="Anshul Patel">
+        AP
+      </a>
+      <div class="nav-divider"></div>
+      <ul class="nav-links">
+        <li><a href="#work" class="nav-link">Work</a></li>
+        <li><a href="#about" class="nav-link active">About</a></li>
+        <li><a href="#beyond" class="nav-link">Beyond</a></li>
+        <li><a href="#timeline" class="nav-link">Timeline</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+      <div class="nav-divider"></div>
+      <a href="assets/docs/Anshul_Patel_Resume.pdf" target="_blank" rel="noopener noreferrer" class="nav-resume-btn" title="View / Download Resume PDF">
+        <span>Resume PDF</span>
+        <i data-lucide="arrow-up-right" class="w-3.5 h-3.5"></i>
+      </a>
+    </nav>
+  </header>
+
+  <!-- Content Wrapper -->
+  <div class="content-wrapper">
+
+    <!-- HERO SECTION (Matching Inspo 4) -->
+    <section id="hero" class="hero-section">
+      <!-- Status Badge -->
+      <div class="status-pill">
+        <span class="pulse-dot"></span>
+        <span>Available for Internships & Projects</span>
+      </div>
+
+      <!-- Main Headline in Editorial Serif -->
+      <h1 class="hero-title font-editorial">
+        Hi there,<br>
+        I'm Anshul Patel
+      </h1>
+
+      <!-- Subtitle -->
+      <p class="hero-subtitle">
+        A <strong>CSE (AI & ML)</strong> undergraduate blending technical problem-solving, hackathon leadership, and meaningful human connections to build purposeful software.
+      </p>
+
+      <!-- Action Buttons -->
+      <div class="hero-actions">
+        <a href="#contact" class="btn-primary">
+          <i data-lucide="mail" class="w-4 h-4"></i>
+          <span>Get in touch</span>
+        </a>
+        <a href="#work" class="btn-secondary">
+          <span>Explore Work</span>
+          <i data-lucide="chevron-down" class="w-4 h-4"></i>
+        </a>
+        <a href="assets/docs/Anshul_Patel_Resume.pdf" target="_blank" rel="noopener noreferrer" class="btn-primary" style="background: linear-gradient(135deg, rgba(225, 29, 72, 0.3) 0%, rgba(255, 87, 34, 0.3) 100%); border-color: rgba(244, 63, 94, 0.45);">
+          <i data-lucide="file-down" class="w-4 h-4 text-rose-400"></i>
+          <span>Download Resume (PDF)</span>
+          <i data-lucide="arrow-up-right" class="w-3.5 h-3.5"></i>
+        </a>
+        <button class="btn-secondary" data-open-resume>
+          <i data-lucide="file-text" class="w-4 h-4"></i>
+          <span>Interactive ATS CV</span>
+        </button>
+      </div>
+    </section>
+
+    <!-- SECTION NAV TABS (Matching Inspo 1: 01 WORK, 02 ABOUT, etc.) -->
+    <nav class="section-nav-tabs" aria-label="Section Tabs">
+      <a href="#work" class="section-tab-item">
+        <span class="tab-num">01</span>
+        <span>WORK</span>
+      </a>
+      <a href="#about" class="section-tab-item active">
+        <span class="tab-num">02</span>
+        <span>ABOUT</span>
+      </a>
+      <a href="#beyond" class="section-tab-item">
+        <span class="tab-num">03</span>
+        <span>BEYOND</span>
+      </a>
+      <a href="#timeline" class="section-tab-item">
+        <span class="tab-num">04</span>
+        <span>TIMELINE</span>
+      </a>
+      <a href="#contact" class="section-tab-item">
+        <span class="tab-num">05</span>
+        <span>CONTACT</span>
+      </a>
+    </nav>
+
+    <!-- BENTO GRID SYSTEM: ABOUT & ACADEMICS (Matching Inspo 3) -->
+    <section id="about" class="mb-20">
+      <div class="bento-grid">
+
+        <!-- 1. EDUCATION CARD (Top Left, 5 cols) -->
+        <div class="bento-card col-span-5 flex flex-col justify-between">
+          <div class="card-spotlight"></div>
+          <div>
+            <div class="bento-card-header">
+              <h2 class="bento-title font-editorial">Education</h2>
+              <span class="font-mono-code text-xs text-zinc-500">2025 – 2029</span>
+            </div>
+            
+            <div class="mb-4">
+              <div class="flex items-center gap-2 mb-1.5">
+                <span class="w-2 h-2 rounded-full bg-emerald-400"></span>
+                <h3 class="text-lg font-bold text-white">B.Tech in CSE (AI & ML)</h3>
+              </div>
+              <p class="text-zinc-400 text-sm">Lakshmi Narain College of Technology & Science (LNCTS)</p>
+              <p class="text-xs text-zinc-500 mt-0.5">Bhopal, Madhya Pradesh</p>
+            </div>
+          </div>
+
+          <!-- Academic Metrics (Updated Class XII to 80%) -->
+          <div class="education-stats">
+            <div class="stat-pill-box">
+              <div class="stat-val" data-counter-target="8.4" data-counter-decimals="1">8.4</div>
+              <div class="stat-lbl">College CGPA</div>
+            </div>
+            <div class="stat-pill-box">
+              <div class="stat-val" data-counter-target="80" data-counter-suffix="%">80%</div>
+              <div class="stat-lbl">Class XII (CBSE PCM)</div>
+            </div>
+            <div class="stat-pill-box">
+              <div class="stat-val" data-counter-target="87" data-counter-suffix="%">87%</div>
+              <div class="stat-lbl">Class X (CBSE)</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 2. WORK & HACKATHON EXPERIENCE CARD (Top Right, 7 cols) -->
+        <div class="bento-card col-span-7 flex flex-col justify-between">
+          <div class="card-spotlight"></div>
+          <div>
+            <div class="bento-card-header">
+              <h2 class="bento-title font-editorial">Work & Hackathons</h2>
+              <a href="assets/docs/Anshul_Patel_Resume.pdf" target="_blank" rel="noopener noreferrer" class="bento-card-action" title="Download Official PDF Resume">
+                <span>Resume PDF</span>
+                <i data-lucide="arrow-up-right" class="w-3.5 h-3.5"></i>
+              </a>
+            </div>
+
+            <!-- Horizontal Timeline (Matching Inspo 3) -->
+            <div class="horizontal-timeline">
+              <!-- Step 1: SIH 2026 -->
+              <div class="timeline-step">
+                <div class="timeline-dot"></div>
+                <span class="timeline-date">2026</span>
+                <h4 class="timeline-role">Team Leader & Backend</h4>
+                <p class="timeline-company">Smart India Hackathon</p>
+                <span class="timeline-badge text-amber-400 border-amber-500/20 bg-amber-500/10">Round 2 Shortlisted</span>
+              </div>
+
+              <!-- Step 2: AI Manthan -->
+              <div class="timeline-step">
+                <div class="timeline-dot"></div>
+                <span class="timeline-date">24-Hr Hack</span>
+                <h4 class="timeline-role">Lead Presenter</h4>
+                <p class="timeline-company">AI Manthan</p>
+                <span class="timeline-badge text-rose-400 border-rose-500/20 bg-rose-500/10">Best Creative Team</span>
+              </div>
+
+              <!-- Step 3: Influencer Awards -->
+              <div class="timeline-step">
+                <div class="timeline-dot"></div>
+                <span class="timeline-date">2026</span>
+                <h4 class="timeline-role">Event Management</h4>
+                <p class="timeline-company">Influencer Awards (CEM)</p>
+                <span class="timeline-badge text-zinc-300">Operations</span>
+              </div>
+            </div>
+          </div>
+
+          <p class="text-xs text-zinc-500 mt-6 pt-4 border-t border-white/5 flex items-center gap-1.5">
+            <i data-lucide="info" class="w-3.5 h-3.5 text-zinc-400"></i>
+            Backend API integration, judge pitch presentations, and coordinated event executions.
+          </p>
+        </div>
+
+        <!-- 3. DIGITAL FOOTPRINT: 2M+ REACH CARD (Updated with @thepanchvatis & @ig.anshul_patel) -->
+        <div class="bento-card col-span-4 reach-highlight-card flex flex-col justify-between">
+          <div class="card-spotlight"></div>
+          <div>
+            <div class="flex items-center justify-between mb-4">
+              <span class="font-mono-code text-xs text-rose-400 font-semibold tracking-wider uppercase">Digital Impact</span>
+              <div class="flex items-center gap-2">
+                <a href="https://www.instagram.com/thepanchvatis?cplk=MW9vNndyeGI2dzY1bA==" target="_blank" rel="noopener noreferrer" class="text-rose-400 hover:text-white transition-colors" title="@thepanchvatis Instagram">
+                  <i data-lucide="instagram" class="w-4 h-4"></i>
+                </a>
+                <a href="https://www.instagram.com/ig.anshul_patel/" target="_blank" rel="noopener noreferrer" class="text-zinc-400 hover:text-white transition-colors" title="@ig.anshul_patel Instagram">
+                  <i data-lucide="instagram" class="w-4 h-4"></i>
+                </a>
+              </div>
+            </div>
+            
+            <div class="reach-badge" data-counter-target="2.0" data-counter-decimals="1" data-counter-suffix="M+">
+              2.0M+
+            </div>
+            <h3 class="text-lg font-bold text-white mb-1">Audience Reach</h3>
+            <p class="text-xs text-zinc-400 leading-relaxed">
+              Curate and manage digital media pages achieving over 2 million organic reach, demonstrating strong digital communication and audience interaction fundamentals.
+            </p>
+          </div>
+          
+          <div class="mt-4 pt-3 border-t border-white/10 flex flex-wrap items-center justify-between gap-2 text-xs">
+            <a href="https://www.instagram.com/thepanchvatis?cplk=MW9vNndyeGI2dzY1bA==" target="_blank" rel="noopener noreferrer" class="account-tag-btn">
+              <i data-lucide="instagram" class="w-3.5 h-3.5"></i>
+              <span>@thepanchvatis</span>
+              <i data-lucide="arrow-up-right" class="w-3 h-3 opacity-70"></i>
+            </a>
+            <a href="https://www.instagram.com/ig.anshul_patel/" target="_blank" rel="noopener noreferrer" class="text-zinc-400 hover:text-white transition-colors">
+              <span>@ig.anshul_patel</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- 4. LEADERSHIP & PUBLIC SPEAKING (4 cols) -->
+        <div class="bento-card col-span-4 flex flex-col justify-between">
+          <div class="card-spotlight"></div>
+          <div>
+            <div class="bento-card-header">
+              <h2 class="bento-title font-editorial">Leadership</h2>
+              <i data-lucide="award" class="w-5 h-5 text-amber-400"></i>
+            </div>
+
+            <div class="space-y-3.5">
+              <div class="flex items-start gap-3">
+                <div class="p-2 rounded-xl bg-white/5 border border-white/10 text-amber-400">
+                  <i data-lucide="shield" class="w-4 h-4"></i>
+                </div>
+                <div>
+                  <h4 class="text-sm font-semibold text-white">School Captain</h4>
+                  <p class="text-xs text-zinc-400">Served for 2 consecutive years</p>
+                </div>
+              </div>
+
+              <div class="flex items-start gap-3">
+                <div class="p-2 rounded-xl bg-white/5 border border-white/10 text-emerald-400">
+                  <i data-lucide="trophy" class="w-4 h-4"></i>
+                </div>
+                <div>
+                  <h4 class="text-sm font-semibold text-white">Football Team Captain</h4>
+                  <p class="text-xs text-zinc-400">Led school varsity squad for 2 years</p>
+                </div>
+              </div>
+
+              <div class="flex items-start gap-3">
+                <div class="p-2 rounded-xl bg-white/5 border border-white/10 text-rose-400">
+                  <i data-lucide="mic" class="w-4 h-4"></i>
+                </div>
+                <div>
+                  <h4 class="text-sm font-semibold text-white">3× Debate Champion</h4>
+                  <p class="text-xs text-zinc-400">Inter-school debate winner</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="mt-4 pt-3 border-t border-white/5 text-xs text-zinc-500">
+            Proven execution in high-stakes public speaking & team coordination.
+          </div>
+        </div>
+
+        <!-- 5. TECHNICAL STACK & ARSENAL (4 cols) -->
+        <div class="bento-card col-span-4 flex flex-col justify-between">
+          <div class="card-spotlight"></div>
+          <div>
+            <div class="bento-card-header">
+              <h2 class="bento-title font-editorial">Tech Arsenal</h2>
+              <i data-lucide="terminal" class="w-5 h-5 text-cyan-400"></i>
+            </div>
+
+            <div class="skills-category-group">
+              <h4 class="skill-category-title">Core Languages</h4>
+              <div class="skill-tag-cloud">
+                <span class="skill-pill highlight">Python (Foundational)</span>
+                <span class="skill-pill">C++ (Foundational)</span>
+                <span class="skill-pill">HTML5</span>
+                <span class="skill-pill">CSS3</span>
+                <span class="skill-pill">JavaScript</span>
+              </div>
+            </div>
+
+            <div class="skills-category-group">
+              <h4 class="skill-category-title">Backend & APIs</h4>
+              <div class="skill-tag-cloud">
+                <span class="skill-pill highlight">FastAPI Exposure</span>
+                <span class="skill-pill">REST APIs</span>
+                <span class="skill-pill">Data Pipelines</span>
+              </div>
+            </div>
+
+            <div class="skills-category-group">
+              <h4 class="skill-category-title">Tools & Explored</h4>
+              <div class="skill-tag-cloud">
+                <span class="skill-pill">Git / GitHub</span>
+                <span class="skill-pill">VS Code</span>
+                <span class="skill-pill">SQL</span>
+                <span class="skill-pill">MongoDB</span>
+                <span class="skill-pill">Flask</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="mt-2 text-xs text-zinc-500 font-mono-code">
+            *Accurately labeled foundational & project exposure
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- SECTION 01: FEATURED WORK & HACKATHON PROJECTS (With Geo Context AI direct button & link) -->
+    <section id="work" class="mb-24">
+      <div class="flex items-center justify-between mb-8">
+        <div>
+          <span class="font-mono-code text-xs text-rose-400 tracking-wider uppercase font-semibold">01 / Portfolio</span>
+          <h2 class="text-3xl md:text-4xl font-editorial text-white mt-1">Featured Hackathons & Projects</h2>
+        </div>
+        <p class="text-zinc-500 text-sm hidden md:block">Click any card to inspect system details</p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+
+        <!-- Project 1: Geo Context AI (SIH 2026) -->
+        <div class="project-card cursor-pointer group" data-project-id="sih2026">
+          <div>
+            <div class="flex items-center justify-between mb-2">
+              <span class="project-tag">Smart India Hackathon 2026</span>
+              <span class="text-xs px-2.5 py-1 rounded-full bg-amber-500/10 text-amber-300 border border-amber-500/20 font-medium">
+                Round 2 Shortlisted
+              </span>
+            </div>
+            
+            <h3 class="project-title font-editorial">
+              <a href="https://geo-context-ai.onrender.com" target="_blank" rel="noopener noreferrer" class="hover:text-rose-300 transition-colors inline-flex items-center gap-1.5" title="Visit Geo Context AI">
+                <span>Geo Context AI</span>
+                <i data-lucide="arrow-up-right" class="w-5 h-5 text-rose-400 inline"></i>
+              </a>
+            </h3>
+            <p class="text-xs text-zinc-400 font-mono-code mb-2">Industrial Fire & Hotspot Monitoring System</p>
+            
+            <p class="project-desc">
+              Engineered early-warning detection pipelines for industrial safety. Served as Team Leader overseeing backend development, sensor API implementations, and delivered the technical presentation before the judging panel.
+            </p>
+
+            <ul class="project-meta-list">
+              <li class="project-meta-item">
+                <i data-lucide="check-circle-2" class="w-4 h-4"></i>
+                <span>Role: Team Leader & Backend Development</span>
+              </li>
+              <li class="project-meta-item">
+                <i data-lucide="check-circle-2" class="w-4 h-4"></i>
+                <span>FastAPI endpoints & live deployed cloud service</span>
+              </li>
+              <li class="project-meta-item">
+                <i data-lucide="check-circle-2" class="w-4 h-4"></i>
+                <span>Presented solution before official judging committee</span>
+              </li>
+            </ul>
+          </div>
+
+          <div class="flex flex-wrap items-center justify-between pt-4 border-t border-white/5 gap-3">
+            <span class="text-xs text-zinc-400 font-mono-code">Python · FastAPI · IoT APIs · Render</span>
+            <div class="flex items-center gap-3">
+              <a href="https://geo-context-ai.onrender.com" target="_blank" rel="noopener noreferrer" class="btn-project-link">
+                <span>Explore Project</span>
+                <i data-lucide="external-link" class="w-3.5 h-3.5"></i>
+              </a>
+              <span class="inline-flex items-center gap-1 text-xs font-semibold text-zinc-400 group-hover:text-white transition-colors">
+                <span>Details</span>
+                <i data-lucide="arrow-right" class="w-3.5 h-3.5"></i>
+              </span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 2: AI Manthan 24h Hackathon -->
+        <div class="project-card cursor-pointer group" data-project-id="aimanthan">
+          <div>
+            <div class="flex items-center justify-between mb-2">
+              <span class="project-tag">AI Manthan (24-Hour Hackathon)</span>
+              <span class="text-xs px-2.5 py-1 rounded-full bg-rose-500/10 text-rose-300 border border-rose-500/20 font-medium">
+                Best Creative Team Award
+              </span>
+            </div>
+            
+            <h3 class="project-title font-editorial group-hover:text-rose-300 transition-colors">
+              AI-Powered Industrial Defect Detection System
+            </h3>
+            <p class="text-xs text-zinc-400 font-mono-code mb-2">Computer Vision & Factory Line Anomaly Screening</p>
+            
+            <p class="project-desc">
+              Rapidly synthesized research and automated defect screening concepts for manufacturing production lines under strict 24-hour hackathon constraints.
+            </p>
+
+            <ul class="project-meta-list">
+              <li class="project-meta-item">
+                <i data-lucide="check-circle-2" class="w-4 h-4"></i>
+                <span>Role: Research Contributor & Lead Presenter</span>
+              </li>
+              <li class="project-meta-item">
+                <i data-lucide="check-circle-2" class="w-4 h-4"></i>
+                <span>Crafted anomaly detection approach & value pitch</span>
+              </li>
+              <li class="project-meta-item">
+                <i data-lucide="check-circle-2" class="w-4 h-4"></i>
+                <span>Won Best Creative Team Award for novelty & delivery</span>
+              </li>
+            </ul>
+          </div>
+
+          <div class="flex items-center justify-between pt-4 border-t border-white/5">
+            <span class="text-xs text-zinc-400 font-mono-code">Python · AI/ML Concepts · Pitching</span>
+            <span class="inline-flex items-center gap-1 text-sm font-semibold text-rose-400 group-hover:translate-x-1 transition-transform">
+              <span>View Case Details</span>
+              <i data-lucide="arrow-right" class="w-4 h-4"></i>
+            </span>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- NEW SECTION 03: BEYOND THE PROFESSIONAL ME & PHOTO GALLERY -->
+    <section id="beyond" class="beyond-section">
+      
+      <!-- Conversational Personality Banner -->
+      <div class="beyond-banner-card">
+        <div class="card-spotlight"></div>
+        <div class="flex flex-col md:flex-row md:items-center justify-between gap-4 mb-6">
+          <div>
+            <span class="font-mono-code text-xs text-rose-400 tracking-wider uppercase font-semibold">03 / The Unfiltered Me</span>
+            <h2 class="text-3xl md:text-5xl font-editorial text-white mt-1">A Little More About Me</h2>
+          </div>
+          <span class="font-handwriting text-2xl text-amber-300 transform -rotate-2">
+            "Stories over code, always."
+          </span>
+        </div>
+
+        <p class="text-zinc-300 text-base md:text-lg leading-relaxed max-w-3xl">
+          Beyond technical architecture and hackathons, I'm someone driven by raw curiosity, creativity, and the thrill of trying fun, unconventional things. Whether strumming chords on my guitar, penning poetry late into the night, or singing freely, I love expressing ideas that go deeper than pure logic.
+        </p>
+
+        <!-- The Defining Trait: Love for Conversations -->
+        <div class="conversation-quote-box">
+          <div class="flex items-center gap-2 mb-2 text-rose-400 text-xs font-mono-code uppercase tracking-wider">
+            <i data-lucide="message-circle-heart" class="w-4 h-4"></i>
+            <span>What truly defines me</span>
+          </div>
+          <p class="font-editorial">
+            "My favourite thing in life is talking to people, understanding their perspectives, exploring their personalities, and discovering what makes each person unique. I genuinely believe every single person has a different story—and I love getting to know those stories."
+          </p>
+        </div>
+
+        <!-- Creative & Personal Badges -->
+        <div class="hobby-pill-strip">
+          <div class="hobby-pill">
+            <i data-lucide="guitar" class="w-4 h-4 text-amber-400"></i>
+            <span>Plays Guitar</span>
+          </div>
+          <div class="hobby-pill">
+            <i data-lucide="feather" class="w-4 h-4 text-rose-400"></i>
+            <span>Writes Poetry</span>
+          </div>
+          <div class="hobby-pill">
+            <i data-lucide="mic-2" class="w-4 h-4 text-pink-400"></i>
+            <span>Singing & Melodies</span>
+          </div>
+          <div class="hobby-pill">
+            <i data-lucide="compass" class="w-4 h-4 text-emerald-400"></i>
+            <span>Unconventional Adventures</span>
+          </div>
+          <div class="hobby-pill">
+            <i data-lucide="sparkles" class="w-4 h-4 text-cyan-400"></i>
+            <span>Endlessly Curious</span>
+          </div>
+          <div class="hobby-pill">
+            <i data-lucide="heart" class="w-4 h-4 text-red-400"></i>
+            <span>Human Connections</span>
+          </div>
+        </div>
+
+        <!-- Interactive Conversation Starter Shuffler -->
+        <div class="conversation-shuffler">
+          <div class="flex-1">
+            <div class="flex items-center gap-2 text-xs font-mono-code text-zinc-400 mb-1">
+              <span class="w-2 h-2 rounded-full bg-rose-400"></span>
+              <span>Let's talk about something real:</span>
+            </div>
+            <p id="conversationTopicText" class="text-white text-base md:text-lg font-editorial italic transition-all duration-300">
+              "What's a life philosophy or perspective that completely shifted how you see the world?"
+            </p>
+          </div>
+          <button id="shuffleTopicBtn" class="topic-shuffle-btn" title="Get a new conversation prompt">
+            <i data-lucide="refresh-cw" class="w-3.5 h-3.5 text-rose-400"></i>
+            <span>Shuffle Question</span>
+          </button>
+        </div>
+      </div>
+
+    </section>
+
+    <!-- SECTION 04: TIMELINE JOURNEY -->
+    <section id="timeline" class="mb-24">
+      <div class="bento-card">
+        <div class="card-spotlight"></div>
+        <div class="bento-card-header">
+          <div>
+            <span class="font-mono-code text-xs text-rose-400 tracking-wider uppercase font-semibold">04 / Milestones</span>
+            <h2 class="bento-title font-editorial mt-1">Journey & Milestones</h2>
+          </div>
+          <button class="bento-card-action" data-open-resume>
+            <span>Full Profile</span>
+            <i data-lucide="external-link" class="w-3.5 h-3.5"></i>
+          </button>
+        </div>
+
+        <div class="space-y-6 mt-6">
+          <!-- Timeline Entry 1: SIH 2026 -->
+          <div class="flex flex-col sm:flex-row sm:items-start justify-between pb-6 border-b border-white/5 gap-2">
+            <div>
+              <div class="flex items-center gap-2">
+                <span class="text-xs font-mono-code px-2 py-0.5 rounded bg-rose-500/10 text-rose-400 border border-rose-500/20">2026</span>
+                <h3 class="text-base font-bold text-white">Smart India Hackathon (SIH 2026) — Geo Context AI</h3>
+              </div>
+              <p class="text-sm text-zinc-400 mt-1">
+                Led team as Team Leader, developed backend APIs for Industrial Fire & Hotspot Monitoring (<a href="https://geo-context-ai.onrender.com" target="_blank" rel="noopener noreferrer" class="text-rose-400 hover:underline">geo-context-ai.onrender.com</a>), and presented to the national judging panel to advance to Round 2.
+              </p>
+            </div>
+            <span class="text-xs text-zinc-500 font-mono-code whitespace-nowrap">National Hackathon</span>
+          </div>
+
+          <!-- Timeline Entry 2: Influencer Awards -->
+          <div class="flex flex-col sm:flex-row sm:items-start justify-between pb-6 border-b border-white/5 gap-2">
+            <div>
+              <div class="flex items-center gap-2">
+                <span class="text-xs font-mono-code px-2 py-0.5 rounded bg-amber-500/10 text-amber-400 border border-amber-500/20">2026</span>
+                <h3 class="text-base font-bold text-white">Influencer Awards 2026 (CEM India)</h3>
+              </div>
+              <p class="text-sm text-zinc-400 mt-1">
+                Event Management Team Member managing on-ground coordination and attendee operations.
+              </p>
+            </div>
+            <span class="text-xs text-zinc-500 font-mono-code whitespace-nowrap">Event Management</span>
+          </div>
+
+          <!-- Timeline Entry 3: LNCTS College -->
+          <div class="flex flex-col sm:flex-row sm:items-start justify-between pb-6 border-b border-white/5 gap-2">
+            <div>
+              <div class="flex items-center gap-2">
+                <span class="text-xs font-mono-code px-2 py-0.5 rounded bg-emerald-500/10 text-emerald-400 border border-emerald-500/20">2025 – Present</span>
+                <h3 class="text-base font-bold text-white">B.Tech in CSE (AI & ML) — LNCTS Bhopal</h3>
+              </div>
+              <p class="text-sm text-zinc-400 mt-1">
+                Maintained 8.4 CGPA while actively pursuing hackathons, backend development, and college event management activities.
+              </p>
+            </div>
+            <span class="text-xs text-zinc-500 font-mono-code whitespace-nowrap">Bhopal, MP</span>
+          </div>
+
+          <!-- Timeline Entry 4: School Years -->
+          <div class="flex flex-col sm:flex-row sm:items-start justify-between pb-6 border-b border-white/5 gap-2">
+            <div>
+              <div class="flex items-center gap-2">
+                <span class="text-xs font-mono-code px-2 py-0.5 rounded bg-purple-500/10 text-purple-400 border border-purple-500/20">School Years</span>
+                <h3 class="text-base font-bold text-white">School Captain & Football Varsity Captain</h3>
+              </div>
+              <p class="text-sm text-zinc-400 mt-1">
+                St. Francis Higher Secondary School — 2 consecutive years as School Captain, 2 years as Football Captain, 3-time inter-school debate winner (Class XII: 80%, Class X: 87%).
+              </p>
+            </div>
+            <span class="text-xs text-zinc-500 font-mono-code whitespace-nowrap">St. Francis HSS</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 05: CONTACT & CONNECT (Matching Inspo 4) -->
+    <section id="contact" class="footer-section">
+      <div class="contact-card-box">
+        <span class="font-mono-code text-xs text-rose-400 tracking-wider uppercase font-semibold">05 / Connect</span>
+        <h2 class="text-3xl md:text-5xl font-editorial text-white mt-2 mb-3">
+          Let's talk perspectives, ideas, or build together.
+        </h2>
+        <p class="text-zinc-400 text-sm md:text-base max-w-xl mx-auto">
+          Whether you want to discuss a software project, collaborate on a hackathon, or simply have a great conversation over coffee—reach out anytime!
+        </p>
+
+        <!-- Interactive Direct Contact Actions -->
+        <div class="contact-channels">
+          <!-- Copy Email -->
+          <button class="channel-btn" data-copy-text="anshulpatel.work@gmail.com" data-copy-label="Email address copied to clipboard!">
+            <i data-lucide="mail" class="w-4 h-4 text-rose-400"></i>
+            <span>anshulpatel.work@gmail.com</span>
+            <span class="copy-badge">Copy</span>
+          </button>
+
+          <!-- Copy Phone -->
+          <button class="channel-btn" data-copy-text="7000931081" data-copy-label="Phone number (+91 7000931081) copied!">
+            <i data-lucide="phone" class="w-4 h-4 text-emerald-400"></i>
+            <span>+91 7000931081</span>
+            <span class="copy-badge">Copy</span>
+          </button>
+
+          <!-- LinkedIn -->
+          <a href="https://www.linkedin.com/in/anshul-patel-616569406" target="_blank" rel="noopener noreferrer" class="channel-btn">
+            <i data-lucide="linkedin" class="w-4 h-4 text-blue-400"></i>
+            <span>LinkedIn</span>
+            <i data-lucide="arrow-up-right" class="w-3.5 h-3.5 opacity-60"></i>
+          </a>
+
+          <!-- GitHub -->
+          <a href="https://github.com/AnshulCodesHere" target="_blank" rel="noopener noreferrer" class="channel-btn">
+            <i data-lucide="github" class="w-4 h-4 text-zinc-300"></i>
+            <span>GitHub</span>
+            <i data-lucide="arrow-up-right" class="w-3.5 h-3.5 opacity-60"></i>
+          </a>
+
+          <!-- Instagram Personal -->
+          <a href="https://www.instagram.com/ig.anshul_patel/" target="_blank" rel="noopener noreferrer" class="channel-btn">
+            <i data-lucide="instagram" class="w-4 h-4 text-pink-400"></i>
+            <span>@ig.anshul_patel</span>
+            <i data-lucide="arrow-up-right" class="w-3.5 h-3.5 opacity-60"></i>
+          </a>
+
+          <!-- Download Official Resume PDF -->
+          <a href="assets/docs/Anshul_Patel_Resume.pdf" target="_blank" rel="noopener noreferrer" class="channel-btn" style="border-color: rgba(244, 63, 94, 0.35); background: rgba(244, 63, 94, 0.1);">
+            <i data-lucide="file-down" class="w-4 h-4 text-rose-400"></i>
+            <span>Resume (Official PDF)</span>
+            <span class="copy-badge" style="background: rgba(244, 63, 94, 0.3);">CV</span>
+            <i data-lucide="arrow-up-right" class="w-3.5 h-3.5 opacity-60"></i>
+          </a>
+        </div>
+      </div>
+
+      <!-- Copyright & Creds -->
+      <div class="flex flex-col sm:flex-row items-center justify-between text-xs text-zinc-500 gap-4 pt-4">
+        <p>© 2026 Anshul Patel. Built with curiosity, stories, and passion.</p>
+        <div class="flex items-center gap-6">
+          <a href="#hero" class="hover:text-white transition-colors">Back to top ↑</a>
+          <a href="assets/docs/Anshul_Patel_Resume.pdf" target="_blank" rel="noopener noreferrer" class="hover:text-white transition-colors flex items-center gap-1">
+            <span>Resume PDF</span>
+            <i data-lucide="arrow-up-right" class="w-3 h-3"></i>
+          </a>
+          <button class="hover:text-white transition-colors" data-open-resume>ATS Web View</button>
+        </div>
+      </div>
+    </section>
+
+  </div><!-- /content-wrapper -->
+
+  <!-- ATS-FRIENDLY RESUME MODAL VIEWER -->
+  <div id="resumeModal" class="resume-modal" role="dialog" aria-modal="true" aria-labelledby="resumeTitle">
+    <div class="resume-modal-dialog">
+      <!-- Modal Header -->
+      <div class="resume-modal-header">
+        <div class="flex items-center gap-2.5">
+          <span class="w-2.5 h-2.5 rounded-full bg-emerald-400"></span>
+          <span id="resumeTitle" class="text-sm font-semibold text-white">Verified Master Resume — Anshul Patel</span>
+        </div>
+        <div class="flex items-center gap-2">
+          <a href="assets/docs/Anshul_Patel_Resume.pdf" target="_blank" rel="noopener noreferrer" class="px-3 py-1.5 rounded-lg bg-rose-500/20 hover:bg-rose-500/30 text-rose-300 hover:text-white text-xs font-semibold flex items-center gap-1.5 transition-colors" title="Download Official PDF Resume">
+            <i data-lucide="download" class="w-3.5 h-3.5"></i>
+            <span>Download Official PDF</span>
+          </a>
+          <button id="printResumeBtn" class="px-3 py-1.5 rounded-lg bg-white/10 hover:bg-white/20 text-xs font-semibold text-white flex items-center gap-1.5 transition-colors" title="Print or save as PDF">
+            <i data-lucide="printer" class="w-3.5 h-3.5"></i>
+            <span>Print</span>
+          </button>
+          <button id="closeResumeBtn" class="p-1.5 rounded-lg bg-white/10 hover:bg-white/20 text-zinc-400 hover:text-white transition-colors" title="Close">
+            <i data-lucide="x" class="w-4 h-4"></i>
+          </button>
+        </div>
+      </div>
+
+      <!-- Modal Body (ATS Paper) -->
+      <div class="resume-modal-body">
+        <div class="ats-paper">
+          <h1>ANSHUL PATEL</h1>
+          <div class="ats-subtitle">CSE AI/ML Undergraduate | Backend Development & Technical Leadership</div>
+          <div class="ats-contact-line">
+            Bhopal, Madhya Pradesh, India &nbsp;|&nbsp;
+            Phone: +91 7000931081 &nbsp;|&nbsp;
+            Email: anshulpatel.work@gmail.com &nbsp;|&nbsp;
+            LinkedIn: linkedin.com/in/anshul-patel-616569406 &nbsp;|&nbsp;
+            GitHub: github.com/AnshulCodesHere
+          </div>
+
+          <!-- Professional Summary -->
+          <div class="ats-section-heading">Professional Summary</div>
+          <p class="text-xs text-zinc-700 leading-relaxed mb-3">
+            Computer Science and Engineering (Artificial Intelligence & Machine Learning) undergraduate with foundational programming proficiency, practical backend API development exposure through national hackathons, and proven leadership across academic and extracurricular domains. Recognized as Best Creative Team Award winner at AI Manthan 24-Hour Hackathon and team shortlisted for Round 2 in Smart India Hackathon (SIH) 2026. Strong oral communicator, 3-time inter-school debate winner, and former 2-year School Captain experienced in team coordination and technical presentations.
+          </p>
+
+          <!-- Education -->
+          <div class="ats-section-heading">Education</div>
+          <div class="mb-3">
+            <div class="ats-entry-header">
+              <span class="ats-entry-title">Lakshmi Narain College of Technology and Science (LNCTS), Bhopal</span>
+              <span class="ats-entry-date">2025 – 2029</span>
+            </div>
+            <div class="ats-entry-sub">Bachelor of Technology (B.Tech) – Computer Science and Engineering (AI & ML)</div>
+            <ul class="ats-bullet-list">
+              <li>Current Cumulative Grade Point Average (CGPA): <strong>8.4 / 10.0</strong></li>
+              <li>Active member associated with the college Event Management Department.</li>
+            </ul>
+          </div>
+
+          <div class="mb-3">
+            <div class="ats-entry-header">
+              <span class="ats-entry-title">St. Francis Higher Secondary School, Bhopal (CBSE)</span>
+              <span class="ats-entry-date">Completed 2025</span>
+            </div>
+            <div class="ats-entry-sub">Senior Secondary (Class XII) – Physics, Chemistry, Mathematics (PCM)</div>
+            <ul class="ats-bullet-list">
+              <li>Board Examination Score: <strong>80%</strong></li>
+              <li>Served as School Captain for two consecutive years.</li>
+            </ul>
+          </div>
+
+          <div class="mb-3">
+            <div class="ats-entry-header">
+              <span class="ats-entry-title">St. Francis Higher Secondary School, Bhopal (CBSE)</span>
+              <span class="ats-entry-date">Completed 2023</span>
+            </div>
+            <div class="ats-entry-sub">Secondary School Examination (Class X)</div>
+            <ul class="ats-bullet-list">
+              <li>Board Examination Score: <strong>87%</strong></li>
+            </ul>
+          </div>
+
+          <!-- Projects & Hackathons -->
+          <div class="ats-section-heading">Projects & Hackathons</div>
+          
+          <div class="mb-3">
+            <div class="ats-entry-header">
+              <span class="ats-entry-title">Smart India Hackathon (SIH 2026) — Geo Context AI</span>
+              <span class="ats-entry-date">Team Leader & Backend Developer</span>
+            </div>
+            <div class="ats-entry-sub">Industrial Fire / Hotspot Monitoring System | Live: geo-context-ai.onrender.com</div>
+            <ul class="ats-bullet-list">
+              <li>Served as Team Leader coordinating team execution from problem formulation to prototype deployment.</li>
+              <li>Developed backend APIs and data integration logic for industrial early-warning hotspot and fire detection.</li>
+              <li>Delivered live technical presentation before the judging panel; team successfully shortlisted for Round 2.</li>
+            </ul>
+          </div>
+
+          <div class="mb-3">
+            <div class="ats-entry-header">
+              <span class="ats-entry-title">AI Manthan (24-Hour Hackathon) — AI-Powered Industrial Defect Detection System</span>
+              <span class="ats-entry-date">Research Contributor & Lead Presenter</span>
+            </div>
+            <div class="ats-entry-sub">Technologies: Python, Computer Vision / AI Concepts, Problem Research</div>
+            <ul class="ats-bullet-list">
+              <li>Researched automated surface anomaly screening mechanisms for high-throughput factory lines.</li>
+              <li>Contributed to shaping the architectural concept and led the primary pitch before the judging panel.</li>
+              <li>Won the prestigious <strong>Best Creative Team Award</strong> for inventive approach and presentation clarity.</li>
+            </ul>
+          </div>
+
+          <!-- Leadership & Extra-Curricular -->
+          <div class="ats-section-heading">Leadership & Extra-Curricular Experience</div>
+          <ul class="ats-bullet-list">
+            <li><strong>School Captain (2 Consecutive Years):</strong> Led student body of 1,000+ students, coordinated inter-school events, and represented student interests to administration.</li>
+            <li><strong>School Football Team Captain (2 Years):</strong> Commanded varsity squad in regional tournaments, promoting teamwork, tactical discipline, and athletic performance.</li>
+            <li><strong>Three-Time Inter-School Debate Winner:</strong> Recognized champion across competitive debate circuits for critical argumentation, persuasive rhetoric, and poise.</li>
+            <li><strong>Influencer Awards 2026 (CEM India):</strong> Worked as part of the core event management team handling coordination and attendee logistics.</li>
+            <li><strong>Social Media Page Management:</strong> Strategically grew and managed digital media pages (@thepanchvatis & @ig.anshul_patel) achieving approximately <strong>2,000,000+ organic reach</strong>.</li>
+          </ul>
+
+          <!-- Technical Skills -->
+          <div class="ats-section-heading">Technical Skills & Competencies</div>
+          <ul class="ats-bullet-list">
+            <li><strong>Programming Languages:</strong> Python (Foundational), C++ (Foundational), HTML5, CSS3, JavaScript (Foundational)</li>
+            <li><strong>Backend & Frameworks:</strong> API Development, FastAPI exposure, Backend Integration, JSON data exchange</li>
+            <li><strong>Developer Tools:</strong> Git, GitHub, Visual Studio Code, Git Bash, Python Virtual Environments</li>
+            <li><strong>Explored Domains:</strong> SQL, MongoDB, Flask, Django, Pandas, Data Analysis fundamentals, AI & ML algorithms</li>
+            <li><strong>Creative & Personal:</strong> Guitar, Poetry Writing, Vocal Music, Conversation & Perspective Discovery</li>
+            <li><strong>Languages:</strong> English, Hindi</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- PROJECT DETAILS MODAL -->
+  <div id="projectDetailsModal" class="resume-modal" role="dialog" aria-modal="true">
+    <div class="resume-modal-dialog" style="max-width: 640px;">
+      <div class="resume-modal-header">
+        <div id="projectModalTitle"></div>
+        <button id="closeProjectBtn" class="p-1.5 rounded-lg bg-white/10 hover:bg-white/20 text-zinc-400 hover:text-white transition-colors">
+          <i data-lucide="x" class="w-4 h-4"></i>
+        </button>
+      </div>
+      <div class="resume-modal-body" id="projectModalContent" style="padding: 2rem;">
+        <!-- Injected via JavaScript -->
+      </div>
+    </div>
+  </div>
+
+  <!-- TOAST NOTIFICATION -->
+  <div id="toastNotice" class="toast-notice" role="alert">
+    <i data-lucide="check" class="w-4 h-4 text-emerald-400"></i>
+    <span id="toastMsg">Action completed!</span>
+  </div>
+
+  <!-- Initialize Lucide Icons -->
+  <script>
+    lucide.createIcons();
+  </script>
+
+  <!-- Application Script -->
+  <script src="js/app.js"></script>
+</body>
+</html>
